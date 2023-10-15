@@ -10075,27 +10075,29 @@ h6,
 .portfolio-cv{
   width:45vw;
   height:140vh;
-  margin-top: 5%;
-}
-#cv{
-  margin-top:5vh;
+  margin-top: 2%;
 }
 #cv-download{
   background-color: #0f4343;
   margin-left:50%!important;
   color:#fb9404;
-
 }
 #cv-download:hover{
   color: #0f4343;
   background-color: #fb9404;
   font-weight: bold;
 }
+#cv-container{
+  margin-top: -5%;
+}
 
 @media (max-width: 790px) {
   .portfolio-cv{
     width:90vw;
     height:80vh
+  }
+  #cv-container{
+    margin-top: 0;
   }
 }
 
