@@ -10097,14 +10097,19 @@ h6,
     width:90vw;
     height:80vh
   }
-  #cv{
-    margin-top:20vh
-  }
 }
 
 /*  SKILLS  */
 .skills-container h1 {
   font-size: 80px;
+}
+@media (max-width: 790px) {
+  .skills-container h1 {
+    font-size: 50px;
+  }
+  .skills-container h1:first-child {
+    height:60px;
+  }
 }
 /*  CONTACT  */
 #contactForm .help-block ul {
