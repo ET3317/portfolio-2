@@ -10119,4 +10119,23 @@ h6,
   padding: 0;
   list-style-type: none;
 }
-
+/*PROJECT PAGE*/
+.video-project{
+  width:70vw;
+  height:80vh
+}
+.video-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10vh;
+}
+@media (max-width: 790px) {
+  .video-project{
+    width:90vw;
+    height:100vh
+  }
+  .video-container{
+    margin-top: 0;
+  }
+}
